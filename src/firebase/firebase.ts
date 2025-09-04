@@ -8,13 +8,7 @@ import { getFirestore } from "firebase/firestore";
 import { getAnalytics, isSupported } from "firebase/analytics";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCLIpfZAoy5uMbnG6eJ0KlImIvnx86IAMw",
-  authDomain: "leetcome-636ea.firebaseapp.com",
-  projectId: "leetcome-636ea",
-  storageBucket: "leetcome-636ea.firebasestorage.app",
-  messagingSenderId: "653218056213",
-  appId: "1:653218056213:web:422efc6d2a537594df661c",
-  measurementId: "G-P6GE0LH6YP",
+ // confidential  keys
 };
 
 const app = initializeApp(firebaseConfig);
